@@ -1,0 +1,193 @@
+header,
+#menú {
+    display: flex;
+    margin-left: -10px;
+}
+
+
+.img-logo {
+    width: 95px;
+    height: auto;
+    margin-top: 9px;
+    margin-left: -22px;
+
+}
+
+img {
+    width: 120px;
+    height: auto;
+
+}
+
+.menú {
+    margin-top: 9px;
+    list-style: none;
+    font-family: 'Matterhorn', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 0 0px 0 45px;
+}
+
+#menú-1 {
+    padding: 0px;
+    margin-right: -10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0077da;
+}
+
+h1 {
+    font-family: 'Matterhorn', sans-serif;
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-top: 0;
+    margin-left: 180px;
+    color: #222222;
+}
+
+#lista-cartel {
+    display: block;
+    padding-left: 56px;
+    padding-right: 56px;
+
+}
+
+.cartel img {
+    width: 220px;
+    padding-right: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.cartel {
+    display: inline-block;
+
+    text-decoration: none;
+
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.nombre-peli {
+    font-family: 'Matterhorn', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+#lista-cartel {
+    margin-top: -10px;
+
+    margin-bottom: 100px;
+
+
+}
+
+#section-cartel {
+    margin-right: 10px;
+}
+
+#p-sigue {
+    text-align: center;
+    font-family: 'Matterhorn', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+
+}
+
+.redes {
+    margin-top: -15px;
+    margin-left: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.link-redes img {
+    align-items: center;
+    width: 30px;
+    padding-left: 20px;
+}
+
+.logo-footer {
+    width: 85px;
+    height: auto;
+    align-items: center;
+    margin-top: 9px;
+
+}
+
+
+#listado-footer,
+footer {
+    display: block;
+    text-align: center;
+
+}
+
+#listado-footer li,
+.copyright {
+
+    display: inline-block;
+    list-style: none;
+    font-family: 'Matterhorn', sans-serif;
+    padding-right: 12px;
+    font-size: 12px;
+}
+
+
+#menú li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+#menú li:hover>ul {
+    display: block;
+}
+
+#menú ul li {
+    position: relative;
+}
+
+#menú-dropdown {
+    margin-top: 5px;
+    background-color: #232b2d;
+    height: auto;
+    padding: 10px 20px 10px 20px;
+}
+
+#menú-dropdown li{
+    color: white;
+    text-transform: none;
+    list-style: none;
+    font-family: 'Matterhorn', sans-serif;
+  
+    line-height: 45px;
+    
+}
+#menú-dropdown li:hover {
+    color: #1786eb;
+}
+
+#menú-dropdown li:nth-child(1){
+    font-size: 15px;
+    font-weight: 700;
+}
+#menú-dropdown li{
+    font-size: 14px;
+    font-weight: 600;
+}
