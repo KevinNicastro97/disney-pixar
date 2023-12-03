@@ -126,6 +126,11 @@ h1 {
     padding-left: 20px;
 }
 
+.link-redes:hover {
+    cursor: pointer;
+ opacity: 0.8;
+}
+
 .logo-footer {
     width: 85px;
     height: auto;
@@ -141,7 +146,9 @@ footer {
     text-align: center;
 
 }
-
+#listado-footer li:hover {
+    color: #1786eb;
+   }
 #listado-footer li,
 .copyright {
 
